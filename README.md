@@ -14,3 +14,6 @@ This script allows you to **passively capture visited websites** on a WiFi netwo
 - `tshark` (Wireshark CLI)  
   ```sh
   sudo apt install tshark -y
+- For arpspoof
+  ```sh
+  sudo apt install dsniff -y
