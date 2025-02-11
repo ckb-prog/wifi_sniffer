@@ -21,11 +21,11 @@ This script allows you to **passively capture visited websites** on a WiFi netwo
 1️⃣ Find Target & Router IP
 Find the router's gateway IP:
 
-```sh
+  ```sh
 ip route | grep default
 Find connected devices on the network:
 
-```sh
+  ```sh
 sudo arp-scan --localnet
 Pick the target device's IP (e.g., 192.168.0.20).
 
@@ -36,7 +36,7 @@ Set the correct WiFi interface (wlan0 or wlan1)
 Set the target device's IP and router's IP
 Then run the script:
 
-```sh
+  ```sh
 sudo bash wifi_sniffer.sh
 3️⃣ Stop & Restore Network
 Press CTRL+C to stop the attack.
